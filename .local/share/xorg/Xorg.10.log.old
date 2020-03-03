@@ -1,0 +1,323 @@
+[ 11092.819] 
+X.Org X Server 1.19.2
+Release Date: 2017-03-02
+[ 11092.819] X Protocol Version 11, Revision 0
+[ 11092.819] Build Operating System: Linux 4.9.0-8-amd64 x86_64 Debian
+[ 11092.819] Current Operating System: Linux somadityainduqa 4.15.0-1071-azure #76-Ubuntu SMP Wed Feb 12 03:02:44 UTC 2020 x86_64
+[ 11092.819] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-1071-azure root=UUID=408a4949-3bac-4860-bf5d-9cfa3c59582d ro console=tty1 console=ttyS0 earlyprintk=ttyS0 rootdelay=300
+[ 11092.819] Build Date: 03 November 2018  03:09:11AM
+[ 11092.819] xorg-server 2:1.19.2-1+deb9u5 (https://www.debian.org/support) 
+[ 11092.819] Current version of pixman: 0.33.6
+[ 11092.819] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[ 11092.819] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[ 11092.819] (==) Log file: "/home/somadityainduqa/.local/share/xorg/Xorg.10.log", Time: Sun Feb 23 17:54:23 2020
+[ 11093.254] (++) Using config file: "/etc/X11/xrdp/xorg.conf"
+[ 11093.254] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[ 11093.376] (==) ServerLayout "X11 Server"
+[ 11093.376] (**) |-->Screen "Screen (xrdpdev)" (0)
+[ 11093.376] (**) |   |-->Monitor "Monitor"
+[ 11093.377] (**) |   |-->Device "Video Card (xrdpdev)"
+[ 11093.377] (**) |-->Input Device "xrdpMouse"
+[ 11093.377] (**) |-->Input Device "xrdpKeyboard"
+[ 11093.377] (**) Option "DontVTSwitch" "on"
+[ 11093.377] (**) Option "AutoAddDevices" "off"
+[ 11093.377] (**) Not automatically adding devices
+[ 11093.377] (==) Automatically enabling devices
+[ 11093.377] (==) Automatically adding GPU devices
+[ 11093.377] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[ 11093.378] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[ 11093.378] 	Entry deleted from font path.
+[ 11093.378] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[ 11093.378] 	Entry deleted from font path.
+[ 11093.378] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[ 11093.378] 	Entry deleted from font path.
+[ 11093.379] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[ 11093.379] 	Entry deleted from font path.
+[ 11093.379] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[ 11093.379] 	Entry deleted from font path.
+[ 11093.379] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[ 11093.379] (==) ModulePath set to "/usr/lib/xorg/modules"
+[ 11093.379] (II) Loader magic: 0x55af45412e00
+[ 11093.379] (II) Module ABI versions:
+[ 11093.379] 	X.Org ANSI C Emulation: 0.4
+[ 11093.379] 	X.Org Video Driver: 23.0
+[ 11093.379] 	X.Org XInput driver : 24.1
+[ 11093.379] 	X.Org Server Extension : 10.0
+[ 11093.381] (II) systemd-logind: took control of session /org/freedesktop/login1/session/c1
+[ 11093.386] (--) PCI:*(0:0:8:0) 1414:5353:0000:0000 rev 0, Mem @ 0xf8000000/67108864, BIOS @ 0x????????/131072
+[ 11093.386] (II) "glx" will be loaded. This was enabled by default and also specified in the config file.
+[ 11093.386] (II) LoadModule: "dbe"
+[ 11093.386] (II) Module "dbe" already built-in
+[ 11093.386] (II) LoadModule: "ddc"
+[ 11093.386] (II) Module "ddc" already built-in
+[ 11093.386] (II) LoadModule: "extmod"
+[ 11093.386] (II) Module "extmod" already built-in
+[ 11093.386] (II) LoadModule: "glx"
+[ 11093.388] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[ 11093.671] (II) Module glx: vendor="X.Org Foundation"
+[ 11093.671] 	compiled for 1.19.2, module version = 1.0.0
+[ 11093.671] 	ABI class: X.Org Server Extension, version 10.0
+[ 11093.671] (II) LoadModule: "int10"
+[ 11093.671] (II) Loading /usr/lib/xorg/modules/libint10.so
+[ 11093.705] (II) Module int10: vendor="X.Org Foundation"
+[ 11093.705] 	compiled for 1.19.2, module version = 1.0.0
+[ 11093.705] 	ABI class: X.Org Video Driver, version 23.0
+[ 11093.705] (II) LoadModule: "record"
+[ 11093.705] (II) Module "record" already built-in
+[ 11093.705] (II) LoadModule: "vbe"
+[ 11093.705] (II) Loading /usr/lib/xorg/modules/libvbe.so
+[ 11093.706] (II) Module vbe: vendor="X.Org Foundation"
+[ 11093.706] 	compiled for 1.19.2, module version = 1.1.0
+[ 11093.706] 	ABI class: X.Org Video Driver, version 23.0
+[ 11093.706] (II) LoadModule: "xorgxrdp"
+[ 11093.706] (II) Loading /usr/lib/xorg/modules/libxorgxrdp.so
+[ 11093.729] (II) Module XORGXRDP: vendor="X.Org Foundation"
+[ 11093.729] 	compiled for 1.19.2, module version = 1.0.0
+[ 11093.729] 	ABI class: X.Org Video Driver, version 23.0
+[ 11093.729] xorgxrdpSetup:
+[ 11093.729] (II) LoadModule: "fb"
+[ 11093.729] (II) Loading /usr/lib/xorg/modules/libfb.so
+[ 11093.730] (II) Module fb: vendor="X.Org Foundation"
+[ 11093.730] 	compiled for 1.19.2, module version = 1.0.0
+[ 11093.730] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[ 11093.730] (II) LoadModule: "xrdpdev"
+[ 11093.730] (II) Loading /usr/lib/xorg/modules/drivers/xrdpdev_drv.so
+[ 11093.730] (II) Module XRDPDEV: vendor="X.Org Foundation"
+[ 11093.730] 	compiled for 1.19.2, module version = 1.0.0
+[ 11093.730] 	ABI class: X.Org Video Driver, version 23.0
+[ 11093.730] xrdpdevSetup:
+[ 11093.730] (II) LoadModule: "xrdpmouse"
+[ 11093.730] (II) Loading /usr/lib/xorg/modules/input/xrdpmouse_drv.so
+[ 11093.730] (II) Module XRDPMOUSE: vendor="X.Org Foundation"
+[ 11093.730] 	compiled for 1.19.2, module version = 1.0.0
+[ 11093.730] 	Module class: X.Org XInput Driver
+[ 11093.730] 	ABI class: X.Org XInput driver, version 24.1
+[ 11093.730] rdpmousePlug:
+[ 11093.730] (II) LoadModule: "xrdpkeyb"
+[ 11093.730] (II) Loading /usr/lib/xorg/modules/input/xrdpkeyb_drv.so
+[ 11093.731] (II) Module XRDPKEYB: vendor="X.Org Foundation"
+[ 11093.731] 	compiled for 1.19.2, module version = 1.0.0
+[ 11093.731] 	Module class: X.Org XInput Driver
+[ 11093.731] 	ABI class: X.Org XInput driver, version 24.1
+[ 11093.731] rdpkeybPlug:
+[ 11093.731] rdpIdentify:
+[ 11093.731] (II) XRDPDEV: driver for xrdp: XRDPDEV
+[ 11093.731] rdpDriverFunc: op 10
+[ 11093.731] (WW) Falling back to old probe method for XRDPDEV
+[ 11093.731] rdpProbe:
+[ 11093.731] (II) Loading sub module "fb"
+[ 11093.731] (II) LoadModule: "fb"
+[ 11093.731] (II) Loading /usr/lib/xorg/modules/libfb.so
+[ 11093.731] (II) Module fb: vendor="X.Org Foundation"
+[ 11093.731] 	compiled for 1.19.2, module version = 1.0.0
+[ 11093.731] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[ 11093.731] (II) XRDPDEV(0): using default device
+[ 11093.731] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[ 11093.731] rdpPreInit:
+[ 11093.731] (**) XRDPDEV(0): Depth 24, (--) framebuffer bpp 32
+[ 11093.731] (==) XRDPDEV(0): RGB weight 888
+[ 11093.731] (==) XRDPDEV(0): Using gamma correction (1.0, 1.0, 1.0)
+[ 11093.731] (==) XRDPDEV(0): Default visual is TrueColor
+[ 11093.731] (==) XRDPDEV(0): DPI set to (96, 96)
+[ 11093.731] (II) XRDPDEV(0): 	mode "640x480" ok
+[ 11093.731] (II) XRDPDEV(0): 	mode "800x600" ok
+[ 11093.731] (--) XRDPDEV(0): Virtual size is 800x600 (pitch 800)
+[ 11093.731] (**) XRDPDEV(0):  Default mode "800x600": 36.0 MHz (scaled from 0.0 MHz), 35.2 kHz, 56.2 Hz
+[ 11093.731] (II) XRDPDEV(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz d)
+[ 11093.731] (==) Depth 24 pixmap format is 32 bpp
+[ 11093.731] rdpScreenInit: virtualX 800 virtualY 600 rgbBits 8 depth 24
+[ 11093.731] rdpScreenInit: pfbMemory bytes 1920000
+[ 11093.731] rdpScreenInit: pfbMemory 0x7fee60ee2010
+[ 11093.731] rdpSimdInit: assigning yuv functions
+[ 11093.731] rdpSimdInit: cpuid ax 1 cx 0 return ax 0x000406f1 bx 0x00020800 cx 0xfeda3223 dx 0x1f8bfbff
+[ 11093.731] rdpSimdInit: sse2 amd64 yuv functions assigned
+[ 11093.731] rdpXvInit: depth 24
+[ 11093.732] (==) XRDPDEV(0): Backing store enabled
+[ 11093.733] rdpScreenInit: out
+[ 11093.733] (==) RandR enabled
+[ 11093.736] (II) SELinux: Disabled on system
+[ 11093.736] (II) AIGLX: Screen 0 is not DRI2 capable
+[ 11093.736] (EE) AIGLX: reverting to software rendering
+[ 11095.681] (II) IGLX: enabled GLX_MESA_copy_sub_buffer
+[ 11095.681] (II) IGLX: Loaded and initialized swrast
+[ 11095.681] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[ 11095.996] (II) Using input driver 'XRDPMOUSE' for 'xrdpMouse'
+[ 11095.996] (**) Option "CorePointer"
+[ 11095.996] (**) xrdpMouse: always reports core events
+[ 11095.996] rdpmousePreInit: drv 0x55af47214850 info 0x55af4732d3d0, flags 0x0
+[ 11095.996] (II) XINPUT: Adding extended input device "xrdpMouse" (type: Mouse, id 6)
+[ 11095.996] rdpmouseControl: what 0
+[ 11095.996] rdpmouseDeviceInit:
+[ 11095.996] rdpmouseCtrl:
+[ 11095.996] rdpRegisterInputCallback: type 1 proc 0x7fee612bbc70
+[ 11095.996] (**) xrdpMouse: (accel) keeping acceleration scheme 1
+[ 11095.996] (**) xrdpMouse: (accel) acceleration profile 0
+[ 11095.996] (**) xrdpMouse: (accel) acceleration factor: 2.000
+[ 11095.996] (**) xrdpMouse: (accel) acceleration threshold: 4
+[ 11095.996] rdpmouseControl: what 1
+[ 11095.996] rdpmouseDeviceOn:
+[ 11095.996] (II) Using input driver 'XRDPKEYB' for 'xrdpKeyboard'
+[ 11095.996] (**) Option "CoreKeyboard"
+[ 11095.996] (**) xrdpKeyboard: always reports core events
+[ 11095.996] rdpkeybPreInit: drv 0x55af47214ff0 info 0x55af474b6e50, flags 0x0
+[ 11095.996] (II) XINPUT: Adding extended input device "xrdpKeyboard" (type: Keyboard, id 7)
+[ 11095.996] rdpkeybControl: what 0
+[ 11095.996] rdpkeybDeviceInit:
+[ 11096.009] rdpkeybChangeKeyboardControl:
+[ 11096.009] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 11096.009] rdpRegisterInputCallback: type 0 proc 0x7fee610b8530
+[ 11096.009] rdpkeybControl: what 1
+[ 11096.009] rdpkeybDeviceOn:
+[ 11096.014] (II) config/udev: Adding input device Microsoft Vmbus HID-compliant Mouse (/dev/input/event2)
+[ 11096.014] (II) AutoAddDevices is off - not adding device.
+[ 11096.014] (II) config/udev: Adding input device Microsoft Vmbus HID-compliant Mouse (/dev/input/js0)
+[ 11096.014] (II) AutoAddDevices is off - not adding device.
+[ 11096.015] (II) config/udev: Adding input device Microsoft Vmbus HID-compliant Mouse (/dev/input/mouse0)
+[ 11096.015] (II) AutoAddDevices is off - not adding device.
+[ 11096.015] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[ 11096.015] (II) AutoAddDevices is off - not adding device.
+[ 11096.015] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event3)
+[ 11096.015] (II) AutoAddDevices is off - not adding device.
+[ 11096.016] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event1)
+[ 11096.016] (II) AutoAddDevices is off - not adding device.
+[ 11096.019] rdpSaveScreen:
+[ 11096.019] rdpDeferredRandR:
+[ 11096.019] rdpResizeSession: width 1024 height 768
+[ 11096.019]   calling RRScreenSizeSet
+[ 11096.019] rdpRRScreenSetSize: width 1024 height 768 mmWidth 271 mmHeight 203
+[ 11096.019] rdpRRGetInfo:
+[ 11096.019]   screen resized to 1024x768
+[ 11096.021]   RRScreenSizeSet ok 1
+[ 11096.021] rdpResizeSession: width 1536 height 753
+[ 11096.021]   calling RRScreenSizeSet
+[ 11096.021] rdpRRScreenSetSize: width 1536 height 753 mmWidth 406 mmHeight 199
+[ 11096.021] rdpRRGetInfo:
+[ 11096.021]   screen resized to 1536x753
+[ 11096.022]   RRScreenSizeSet ok 1
+[ 11096.022] rdpClientConGotConnection:
+[ 11096.022] rdpClientConGotConnection: g_sck_accept ok new_sck 7
+[ 11096.022] rdpClientConGotConnection: adding only clientCon
+[ 11096.022] rdpClientConProcessMsgVersion: version 0 0 0 1
+[ 11096.022] rdpClientConProcessScreenSizeMsg: set width 1536 height 753 bpp 16
+[ 11096.023] rdpClientConProcessScreenSizeMsg: shmemid 131076 shmemptr 0x7fee592b6000
+[ 11096.023] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1536 cy 753
+[ 11096.023] rdpClientConProcessMsgClientInfo:
+[ 11096.023]   got client info bytes 5792
+[ 11096.023]   jpeg support 0
+[ 11096.023]   offscreen support 0
+[ 11096.023]   offscreen size 0
+[ 11096.023]   offscreen entries 0
+[ 11096.023]   client supports glyph cache but server disabled
+[ 11096.023]   client can not do offscreen to offscreen blits
+[ 11096.023]   client can do new(color) cursor
+[ 11096.023]   client can not do multimon
+[ 11096.023] rdpRRSetRdpOutputs: numCrtcs 0
+[ 11096.023] rdpRRSetRdpOutputs: numOutputs 0
+[ 11096.023] rdpLoadLayout: keylayout 0x00000409 variant  display 10
+[ 11096.023] rdpkeybChangeKeyboardControl:
+[ 11096.023] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 11096.024] rdpkeybChangeKeyboardControl:
+[ 11096.024] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 11096.124] rdpInDeferredUpdateCallback:
+[ 11096.125] rdpkeybChangeKeyboardControl:
+[ 11096.125] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 11096.125] rdpkeybChangeKeyboardControl:
+[ 11096.125] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 11100.753] rdpRRGetPanning: 0x55af471ee430
+[ 11101.101] rdpRRGetPanning: 0x55af471ee430
+[ 11101.124] rdpRRGetPanning: 0x55af471ee430
+[ 11101.212] rdpRRGetPanning: 0x55af471ee430
+[ 11101.218] rdpRRGetPanning: 0x55af471ee430
+[ 11101.268] rdpRRGetPanning: 0x55af471ee430
+[ 11101.459] rdpRRGetPanning: 0x55af471ee430
+[ 11101.576] rdpRRGetPanning: 0x55af471ee430
+[ 11101.626] rdpRRGetInfo:
+[ 11101.626] rdpRRGetInfo:
+[ 11101.626] rdpRRGetPanning: 0x55af471ee430
+[ 11101.626] rdpRRGetPanning: 0x55af471ee430
+[ 11102.029] rdpRRGetPanning: 0x55af471ee430
+[ 11102.039] rdpRRGetPanning: 0x55af471ee430
+[ 11102.091] rdpRRGetInfo:
+[ 11102.102] rdpRRGetPanning: 0x55af471ee430
+[ 11102.128] rdpSaveScreen:
+[ 11102.478] rdpkeybChangeKeyboardControl:
+[ 11102.478] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 11102.478] rdpkeybChangeKeyboardControl:
+[ 11102.478] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 11102.536] rdpkeybChangeKeyboardControl:
+[ 11102.536] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 11102.536] rdpkeybChangeKeyboardControl:
+[ 11102.536] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 11102.539] rdpkeybChangeKeyboardControl:
+[ 11102.539] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 11102.539] rdpkeybChangeKeyboardControl:
+[ 11102.539] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 11102.541] rdpkeybChangeKeyboardControl:
+[ 11102.541] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 11102.541] rdpkeybChangeKeyboardControl:
+[ 11102.541] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 11102.641] rdpInDeferredUpdateCallback:
+[ 11102.641] rdpkeybChangeKeyboardControl:
+[ 11102.641] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 11102.641] rdpkeybChangeKeyboardControl:
+[ 11102.641] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 11103.445] rdpRRGetInfo:
+[ 11104.190] rdpRRGetPanning: 0x55af471ee430
+[ 11104.202] rdpRRGetPanning: 0x55af471ee430
+[ 11484.383] rdpRRGetPanning: 0x55af471ee430
+[ 11484.383] rdpRRGetPanning: 0x55af471ee430
+[ 11485.428] rdpRRGetPanning: 0x55af471ee430
+[ 11485.429] rdpRRGetPanning: 0x55af471ee430
+[ 11498.472] rdpRRGetPanning: 0x55af471ee430
+[ 11498.552] rdpRRGetPanning: 0x55af471ee430
+[ 11498.735] rdpRRGetPanning: 0x55af471ee430
+[ 11520.833] rdpRRGetPanning: 0x55af471ee430
+[ 11520.833] rdpRRGetPanning: 0x55af471ee430
+[ 11522.422] rdpDeferredUpdateCallback: reschedule rect_id 66 rect_id_ack 65
+[ 11522.511] rdpDeferredUpdateCallback: reschedule rect_id 67 rect_id_ack 66
+[ 11522.609] rdpDeferredUpdateCallback: reschedule rect_id 68 rect_id_ack 67
+[ 11522.694] rdpDeferredUpdateCallback: reschedule rect_id 69 rect_id_ack 68
+[ 11522.879] rdpDeferredUpdateCallback: reschedule rect_id 72 rect_id_ack 71
+[ 11523.063] rdpDeferredUpdateCallback: reschedule rect_id 75 rect_id_ack 74
+[ 12196.988] rdpSaveScreen:
+[ 12813.112] rdpClientConSendMsg: overrun error len 49048 count 2
+[ 12817.777] rdpClientConSendMsg: overrun error len 36128 count 2
+[ 12817.828] rdpClientConSendMsg: overrun error len 47568 count 2
+[ 12817.883] rdpClientConSendMsg: overrun error len 35736 count 2
+[ 12818.541] rdpClientConSendMsg: overrun error len 37136 count 2
+[ 12835.662] rdpClientConSendMsg: overrun error len 65320 count 2
+[ 12851.884] (EE) 
+[ 12851.884] (EE) Backtrace:
+[ 12851.885] (EE) 0: /usr/lib/xorg/Xorg (xorg_backtrace+0x4a) [0x55af4518566a]
+[ 12851.911] (EE) 1: /usr/lib/xorg/Xorg (0x55af44fcc000+0x1bd3f9) [0x55af451893f9]
+[ 12851.911] (EE) 2: /lib/x86_64-linux-gnu/libpthread.so.0 (0x7fee65b74000+0x11390) [0x7fee65b85390]
+[ 12851.911] (EE) 3: /lib/x86_64-linux-gnu/libc.so.6 (cfree+0x42) [0x7fee6582e532]
+[ 12851.911] (EE) 4: /usr/lib/xorg/Xorg (0x55af44fcc000+0x1bceb2) [0x55af45188eb2]
+[ 12851.911] (EE) 5: /usr/lib/xorg/Xorg (CloseDownConnection+0x7f) [0x55af4518658f]
+[ 12851.911] (EE) 6: /usr/lib/xorg/Xorg (CloseDownClient+0x1c6) [0x55af4501fb76]
+[ 12851.911] (EE) 7: /usr/lib/xorg/Xorg (0x55af44fcc000+0x54690) [0x55af45020690]
+[ 12851.911] (EE) 8: /usr/lib/xorg/Xorg (0x55af44fcc000+0x586a8) [0x55af450246a8]
+[ 12851.911] (EE) 9: /lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main+0xf0) [0x7fee657ca830]
+[ 12851.911] (EE) 10: /usr/lib/xorg/Xorg (_start+0x2a) [0x55af4500e33a]
+[ 12851.911] (EE) 
+[ 12851.911] (EE) Segmentation fault at address 0x55af44000000
+[ 12851.911] (EE) 
+Fatal server error:
+[ 12851.911] (EE) Caught signal 11 (Segmentation fault). Server aborting
+[ 12851.911] (EE) 
+[ 12851.911] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[ 12851.911] (EE) Please also check the log file at "/home/somadityainduqa/.local/share/xorg/Xorg.10.log" for additional information.
+[ 12851.911] (EE) 
+[ 12851.911] rdpmouseControl: what 4
+[ 12851.911] rdpkeybControl: what 4
+[ 12851.911] rdpLeaveVT:
+[ 12851.954] (EE) Server terminated with error (1). Closing log file.
