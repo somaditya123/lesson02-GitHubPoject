@@ -1,3 +1,3 @@
-function msg(){
+function msgs(){
 alert("hello javascript");
 }
